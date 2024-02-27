@@ -1,0 +1,63 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/fondoLogin2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.card{
+    border-radius: 3px;
+}
+
+.btn{
+    border-radius: 3px;
+}
+
+.header{
+    border-radius: 3px;
+    margin-left: 25px;
+}
+.container{
+    margin-top: 1%;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    align-items: center;
+    padding-top: 10rem;
+}
+
+/* .titulos{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 5%;
+    width: 90%;
+    padding: 2% 2%;
+    background: #3423A6;
+    opacity: 1;
+    border-radius: 3px;
+    box-shadow: 0px 9px 0px #23417462;
+} */
+
+.tarjeta_recuperacion div{
+    background: #3423a6b8;
+    border-radius: 10px;
+    margin: 0 5%;
+    margin-top: .5rem;
+    box-shadow: 0px 3px 3px #234174;
+    padding: 12px;
+}
+
+.inputs{
+    width:100%!important;
+}

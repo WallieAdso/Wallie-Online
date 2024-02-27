@@ -1,0 +1,237 @@
+*{  /*cuando se usa asterisco (*) es para causar un efecto univesal en toda la pagina*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*hace que el padding y border pasen a ser parte del calculo de la caja y no sume sus proporciones al calculo final*/
+    text-decoration: none;
+    outline: none; /*Es utilizada para remover el contorno que se ubica fuera de los límites del borde de un elemento*/
+    scroll-behavior: smooth; /*permite un desplazamiento fluido dentro de una misma pagina*/
+}
+
+html{
+    font-size: 62.5%; 
+    overflow-x: hidden; /*oculta el contenido que se sale de la pantalla*/
+}
+
+body {
+
+    background: linear-gradient(120deg, #576DFF 0%, #BFDFF0 100%);}
+
+section{
+    min-height: 100vh; /* especificar 10vh (viewport heigth) es equivalente a ocupar 10% de la altura visible de la pantalla*/
+}
+
+ .contenedor_padre{
+   width: 50%;
+    background: #23417400;
+    border-radius: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 2%;
+    padding-top: 2%
+ }
+
+ .titulos{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 5%;
+    width: 90%;
+    padding: 2% 2%;
+    background: #3423A6;
+    opacity: 1;
+    border-radius: 3px;
+    box-shadow: 0px 9px 0px #23417462;
+ }
+
+ .titulos p{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+ }
+
+ .descripcion_bitacora{
+    display: flex;
+    justify-content: space-between;
+ }
+ .descripcion_bitacora div{
+    background: #3423A6;
+    border-radius: 3px;
+    margin: 0 5%;
+    margin-top: .5rem;
+    box-shadow: 0px 6px 0px #234174;
+ }
+
+ .descripcion_icono{
+    padding: .4rem;
+ }
+ .descripcion_icono i{
+    color: #fff;
+ }
+
+ .descripcion_info{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+ }
+ 
+
+ .descripcion_info p{
+    font-size: 1.3rem;
+    color: #fff;
+    padding:1% 2%;
+    margin: 1%;
+ }
+
+ .descripcion_info a{
+    font-size: 1.2rem;
+    color: #fff;
+    padding:2% 2%;
+ }
+
+ .descripcion_validacion{
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+ }
+ .descripcion_validacion{
+    padding: 1.5% 2%;
+ }
+
+ .descripcion_validacion button{
+    margin: 2% auto;
+ }
+
+ .confirmacion{
+    background: #00e1ff;
+    width: 45%;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 6px 0px #234174;
+ }
+
+ .negacion{
+    color: #fff;
+    width: 45%;
+    background: rgb(0, 77, 150);
+    border: 1px #818181 solid;
+    border-radius: 3px;
+
+ }
+
+ form{
+    text-align: center;
+    margin-top: 3%;
+ }
+
+.enviar{
+    font-size: 1.5rem;
+    background: #fff;
+    border: none;
+    width: 15%;
+    height: 7%;
+    color: #000a5f;
+    border-radius: 3px;
+    box-shadow: 0px 12px 0px #234174;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+
+ footer{
+    position:fixed;
+   left:0px;
+   bottom:2px;
+   height:4rem;
+   width:100%;
+}
+
+.navbar{
+   width: 100%;
+}
+
+/* ---------------------estilo modal-------------------------------- */
+.modal, #miModal{
+   border-radius: 1rem;
+}
+.modal, #miModal, .modal-footer{
+   background: #4931e2;
+   color: #fff;
+}
+.busqueda{
+   display: flex;
+   width:80%;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+}
+.busqueda div{
+   margin: 1rem;
+}
+.busqueda div input[type="search"]{
+   width: 60%;
+   margin-right: 10%;
+}
+.descripciones{
+   display: flex;
+   width:60%;
+   margin: 1rem auto;
+   justify-content: space-between;
+   background: #ffffff7a;
+   border-radius: .5rem;
+}
+.desc1{
+   width: 20%;
+   margin-left: 3%;
+}
+.desc2{
+   width: 20%;
+}
+.desc3{
+   width: 20%;
+   margin-right: 15%;
+}
+.desc4{
+   width: 20%;
+   margin-right: 1%;
+}
+.elementos{
+   display: flex;
+   width:80%;
+   margin: 1rem auto;
+   justify-content: center;
+}
+.elementos .check, .elementos .opciones{
+   display: flex;
+   background: #ffffff7a;
+   border-radius: .5rem;
+   margin-left: 1rem;
+}
+.check{
+   padding-left:1rem;
+   align-items: center;
+}
+.opciones{
+   width: 60%;
+   justify-content: space-between;
+   padding: .5rem;
+}
+.reportar{
+   margin-left: -20%;
+}
+.enviarCheck{
+   width: 40%;
+   text-align: center;
+   margin: 0 auto;
+}
+input[type="submit"]{
+   color: #4931e2;
+   background: #fff;
+   border: none;
+   padding: .5rem;
+   font-weight: 500;
+   border-radius: .5rem;
+   margin-bottom: 1rem;
+   cursor: pointer;
+}

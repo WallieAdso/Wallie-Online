@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body{
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    /* Establece el fondo */
+    background-image: url(../img/fondoGeneral.png);
+    /* Ajusta el tamaño del fondo */
+    background-size: cover;
+    /* Fija el fondo para que no se desplace con el contenido */
+    background-attachment: fixed;
+    /* Centra el fondo en el contenedor */
+    background-position: center;
+    /* Establece el color de fondo como respaldo si la imagen no se carga o no cubre completamente */
+    background-color: #f0f0f0;
+    /* Asegura que el fondo ocupe toda la altura de la pantalla */
+    min-height: 100%;
+        /* Incluye el relleno y el borde en el ancho y alto totales */
+}
+
+.container-fluid{
+    margin-top: 3%;
+    align-items: center;
+    min-height: 100%;
+}
+
+/*FORMULARIO*/
+.fondoColForm{
+    background-color:#2e1760a0;
+    border-radius: 5px;
+}
+
+.tarjFormulario{
+    margin-top: 10%;
+}
+
+.tarjFormulario .filaInput{
+    margin: 0;
+}
+
+    /*input*/
+
+    .input-field.col.s12  {
+        display: flex;
+        justify-content: center;
+    }
+
+    .input-field .inputModificado{
+        height: 30px !important;
+        padding-left: 2% !important;
+        margin-top: 2% !important;
+        background-color: #bfdff04a !important;
+        border-radius: 5px !important;
+        border: 2px solid #bfdff000 !important;
+        color: #2e1760;
+    }
+
+    .input-field .inputModificado:focus{
+        border: 2px solid #BFDFF0!important;
+    }
+
+    .input-field .inputModificado::placeholder{
+        color: #d0d0d07f;
+    }
+
+
+    /*Label*/
+    .input-field .labelModificado{
+        color: #fff;
+    }
+    .input-field .inputModificado:focus + label{
+        color: #BFDFF0 !important;
+        box-shadow: none;
+    }
+
+    /*Boton*/
+    .input-field .btnFormulario{
+        width: 100% !important;
+        padding: 0 2% 0 2% !important;
+        margin-top: 10% !important;
+        height: 40px !important;
+        border: 2px solid #ffffff !important;
+        border-radius: 5px !important;
+        font-weight: bolder;
+        color: #2e1760;
+    }
+
+    .input-field .btnFormulario:hover{
+        font-weight: bolder;
+        color: #2e1760;
+        background-color: #BFDFF0;
+        border: 2px solid #BFDFF0 !important;
+    }

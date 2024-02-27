@@ -1,0 +1,65 @@
+*{
+    color: rgb(75, 75, 75);
+    font-size: small;
+}
+
+body{
+    background-image: url("../img/FondoLogin2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#A1{
+    margin: 2% 7%;
+    padding: 1% 5%;
+    width: 55%;
+    background-color: rgba(40, 16, 159, 0.678);
+    border-radius: 1rem;
+}
+#A1 h3{
+    text-align: center;
+    color: white;
+}
+#A2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    width: 100%;
+    color: #6b6b6b;
+}
+#A2 div{
+    background: #e2e2e2;
+    width: 95%;
+    border-radius:.5rem;
+    padding: 5%;
+}
+.labels{
+    margin-top: 50%;
+}
+button{
+    margin: auto;
+}
+#Wallie{
+    position: absolute;
+    margin: -10px 0px 0px 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.664);
+    
+}
+
+#IW{
+    position: relative;
+    float: right;
+    width: 50%;
+    margin-top: -50%;
+}
+
+#BTNNU{
+    border-radius: 10px;
+    width: 50% !important;
+    height: 8% !important;
+    top: 105%;
+    left: 25%;
+    box-shadow: 7px 8px 0 #050d1ba5;
+}

@@ -1,0 +1,145 @@
+*{  /*cuando se usa asterisco (*) es para causar un efecto univesal en toda la pagina*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*hace que el padding y border pasen a ser parte del calculo de la caja y no sume sus proporciones al calculo final*/
+    text-decoration: none;
+    outline: none; /*Es utilizada para remover el contorno que se ubica fuera de los límites del borde de un elemento*/
+    scroll-behavior: smooth; /*permite un desplazamiento fluido dentro de una misma pagina*/
+}
+
+body {
+    background-image: url(../img/fondoGeneral.png);
+    background: linear-gradient(120deg, #576DFF 0%, #BFDFF0 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+html{
+    font-size: 62.5%; 
+    overflow-x: hidden; /*oculta el contenido que se sale de la pantalla*/
+}
+
+.contenedorPrincipal{
+    margin-top: 5%;
+    padding-bottom: 10%;
+}
+
+/*------------FORMULARIO------------*/
+
+.fondoForm{
+    background-color:#2e1760a0;
+    border-radius: 5px;
+}
+
+/*------------input----------*/
+
+.input-field.col.s12  {
+    display: flex;
+    justify-content: center;
+}
+
+.input-field .inputModificado{
+    height: 30px !important;
+    padding-left: 2% !important;
+    margin-top: 5px !important;
+    background-color: #bfdff04a !important;
+    border-radius: 5px !important;
+    border: 2px solid #bfdff000 !important;
+    color: #2e1760;
+}
+
+.input-field .inputModificado:focus{
+    border: 2px solid #5271FF!important;
+}
+
+.input-field .inputModificado::placeholder{
+    color: #d0d0d07f;
+}
+
+/*------------Label------------*/
+
+.input-field .labelModificado{
+    color: #fff !important;
+}
+
+.input-field .inputModificado:focus + label{
+    color: #5271FF !important;
+    box-shadow: none;
+}
+
+/*------------Boton------------*/
+
+.btnFormulario{
+    width: 100% !important;
+    height: 35px !important;
+    border: 2px solid #ffffff !important;
+    border-radius: 5px !important;
+    font-weight: bolder;
+    color: #2e1760;
+    margin-bottom: 50px;
+}
+
+.btnFormulario:hover{
+    font-weight: bolder;
+    color: #fff;
+    background-color: #5271FF;
+    border: 2px solid #5271FF !important;
+}
+
+/*------------titulo------------*/
+.titulo {
+    text-align: center !important;
+    color: #fff;
+    margin-bottom: 2%;
+}
+
+.subtitulo {
+    text-align: center;
+}
+
+
+
+.opcionesPerfil {
+    text-align: left;
+    color: #fff;
+    width: 100%;
+    height: 25px;
+    border-radius: 10px;
+    background-color: #2e176044;
+    margin: 5px 0 5px 0;
+    padding-left: 10px;
+}
+
+.opcionesPerfil:hover {
+    background-color: #5271FF;
+}
+
+
+.contenedorIzquierdo {
+    margin-right: 5px;
+}
+
+.contenedorIconos {
+    margin-top: 65px;
+}
+
+.contenedorIconos .alineacionIzquierda{
+    text-align: right;
+}
+
+.contenedorIconos .alineacionCentral{
+    text-align: center;
+}
+.contenedorIconos .alineacionDerecha{
+    text-align: left;
+}
+
+
+.contenedorImg {
+    margin-bottom: 0px !important;
+}
+
+.tooltipped{
+    background: none !important;
+}

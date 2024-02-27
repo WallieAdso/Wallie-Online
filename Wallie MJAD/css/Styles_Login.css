@@ -1,0 +1,154 @@
+*{  /*cuando se usa asterisco (*) es para causar un efecto univesal en toda la pagina*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*hace que el padding y border pasen a ser parte del calculo de la caja y no sume sus proporciones al calculo final*/
+    text-decoration: none;
+    outline: none; /*Es utilizada para remover el contorno que se ubica fuera de los límites del borde de un elemento*/
+    scroll-behavior: smooth; /*permite un desplazamiento fluido dentro de una misma pagina*/
+}
+
+html{
+    font-size: 62.5%; 
+    overflow-x: hidden; /*oculta el contenido que se sale de la pantalla*/
+}
+
+body {
+    background: rgb(255,255,255);
+    background: linear-gradient(120deg, rgba(255,255,255,1) 0%, rgba(84,123,171,1) 100%);
+}
+
+section{
+    min-height: 100vh; /* especificar 10vh (viewport heigth) es equivalente a ocupar 10% de la altura visible de la pantalla*/
+    padding: 9rem 9%;
+}
+
+.tarjInicioSesion {
+    width: 40%;
+    text-align: center;
+    background-color: #23417465;
+    border-radius: 30px;
+    padding: 0.5% 3% 1% 2%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.tarjInicioSesion form{
+    width: 50%;
+    position: relative;
+    text-align: center;
+    margin-left: 8%;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+.tarjInicioSesion form h1 {
+    color: #fff;
+    font-size: 7em;
+    margin-bottom: 40px;
+}
+.tarjInicioSesion form input {
+    height: 35px!important;
+    width: 30%;
+    border-radius: 5px !important;
+    background-color: #d6e8eba1 !important;
+    color: #fff;
+    font-size: 4em;
+    margin-bottom: 20px !important;
+}
+::placeholder { 
+    padding-left: 5px;
+    color: #878787; 
+}
+/* label color */
+  .input-field label {
+    font-size: 2rem;
+    color: #ffffff;
+}
+.input-field input {
+    margin-top: 12px !important;
+    color: #878787 !important;
+  }
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: #00e5ff !important;
+  }
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #00e5ff !important;
+}
+ /* valid color */
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #00e5ff ;
+    box-shadow: none;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid #ff0000;
+}
+#btnInicioSesion {
+    border-radius: 15px;
+    width: 50% !important;
+    height: 20% !important;
+    position: absolute;
+    top: 105%;
+    left: 25%;
+    box-shadow: 0px 12px 0px #234174a5;
+  }
+.tarjLogo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -10%);
+}
+.tarjLogo img {
+    width: 200%;
+    height: 200%;
+} 
+.waves-effect.waves-brown .waves-ripple {
+    /* The alpha value allows the text and background color
+    of the button to still show through. */
+     background-color: rgba(83, 8, 83, 0.65);
+}
+
+footer{
+    position: fixed;
+    right: 1%;
+    bottom: 5%;
+    height: 4rem;
+    width: 100%;
+}   
+.tarjContacto {
+    color: #fff;
+    text-align: right;
+}
+.tarjContacto a{
+    margin-right: 10px;
+    font-size: 1.5em;
+    color: #fff;
+}
+.tarjContacto img {
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+
+/*dropdown*/
+/* Ajustar el ancho del fondo del dropdown */
+
+.tarjContacto .dropdown-content{
+    top: 8%;
+    margin-bottom: 50px !important;
+    border-radius: 20px !important;
+}
+
+#blur-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('path/to/login-background.jpg') center center fixed;
+    background-size: cover;
+    filter: blur(0); /* Inicialmente sin desenfoque */
+    transition: filter 0.3s ease; /* Agregar transición para suavizar el efecto */
+}

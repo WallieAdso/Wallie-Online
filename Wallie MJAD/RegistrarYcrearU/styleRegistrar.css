@@ -1,0 +1,84 @@
+*{  /*cuando se usa asterisco (*) es para causar un efecto univesal en toda la pagina*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*hace que el padding y border pasen a ser parte del calculo de la caja y no sume sus proporciones al calculo final*/
+    text-decoration: none;
+    outline: none; /*Es utilizada para remover el contorno que se ubica fuera de los límites del borde de un elemento*/
+    scroll-behavior: smooth; /*permite un desplazamiento fluido dentro de una misma pagina*/
+}
+
+html{
+    font-size: 62.5%; 
+    overflow-x: hidden; /*oculta el contenido que se sale de la pantalla*/
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   background-image: url(../img/FondoPrincipal.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   font-family: 'Roboto', sans-serif;
+}
+
+section{
+    min-height: 100vh; /* especificar 10vh (viewport heigth) es equivalente a ocupar 10% de la altura visible de la pantalla*/
+}
+
+p{
+   font-size: 1.5rem;
+   text-align: center;
+   color: #ffffff;
+}
+
+ .contenedor_padre{
+   padding: 1.5rem;
+   margin: 5% 20%;
+    background: #392f7e7f;
+    border-radius: 6px;
+    box-shadow: .5rem .5rem 1rem #2a244e;
+ }
+ .selects{
+   border-radius: .5rem;
+   border: none;
+   background: #e6e6e6;
+   color: #797979;
+   padding-bottom: 1rem;
+ }
+
+ .inputs{
+   border-radius: .5rem;
+   margin: .7rem;
+   width: 47%;
+   background: #e6e6e6;
+   color: #797979;
+ } 
+ .inputs label{
+   margin: .8rem;
+ }
+.inputs input{
+   color: #535353;
+}
+.inputs label{
+   font-size: 1rem;
+}
+
+form .enviar{
+   margin: 0 45%;
+}
+
+.enviar{
+   font-size: 1.3rem;
+   background: #d8d8d8;
+   border: #000000;
+   padding: .3rem;
+   width: 10%;
+   color: #1a2e88;
+   border-radius: 6px;
+   box-shadow: .2rem .2rem .2rem #1c0083b9;
+}
+.enviar:hover{
+   cursor: pointer;
+}

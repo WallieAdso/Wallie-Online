@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/FondoPrincipal.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+.nomUsuario{
+    background: #3423a6ce;
+    border-radius: .5rem;
+    box-shadow: .3rem .3rem .7rem #1a1a1a;
+    width: 63%;
+    margin: 2rem auto;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.contenedorPadre{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+.contWallie{
+    background: #3423a6ce;
+    border-radius: 1rem;
+    box-shadow: .3rem .3rem .7rem #1a1a1a;
+    text-align: center;
+    width: 35%;
+}
+.contWallie img{
+    width:100%; 
+    height:100%;
+}
+.contAmbientes{
+    text-align: center;
+    width: 45%;
+}
+.tituloAmb{
+    background: #3423a6ce;
+    border-radius: .5rem;
+    box-shadow: .3rem .3rem .7rem #1a1a1a;
+}
+.tituloAmb p{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.ambientes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 1.5rem;
+}
+.salones{
+    background: #3423a6ce;
+    border-radius: .5rem;
+    box-shadow: .3rem .3rem .7rem #1a1a1a;
+    width: 75%;
+    margin:5% auto;
+}
+.salones p{
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin: .5rem;
+}
+.salones input[type="submit"]{
+    border: none;
+    border-radius: .5rem;
+    background: #fff;
+    color: #3423a6;
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding: .6rem;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+
+#Ubicacion{
+    display: flex;
+    align-items: center;
+    background-color:#3423a6;
+    border-radius: 4rem;
+    width: 10rem;
+    height: 3rem;
+    color: white;
+    margin-left: -2rem;
+    margin-top: 1%;
+    font-size: 100%;
+}
+
+#A{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-left: 10%;
+}
+
+#Casita{
+    width: 2rem;
+    margin-left: 25%;
+}
+
+#WI{
+    margin-left: 30%;
+    margin-top: -2%;
+    color:white;
+}
+
+.contenedor-navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.contenedor-navbar a:hover{
+    margin-bottom: 1rem;
+    padding: .8rem;
+    border-radius: .5rem;
+    background: #1a1a1a;
+    transition: .2s ease;
+}
+#Nav1{
+    text-align: center;
+    align-items: center;
+    margin: 1rem auto;
+    background-color:#3423a6ce;
+    box-shadow: .3rem .3rem .7rem #1a1a1a;
+    border-radius: 1rem;
+    width: 30%;
+    padding: .5rem;
+}
+
+.mi-footer {
+    background-color: transparent; /* Fondo transparente */
+    color: white; /* Texto en color blanco para mayor contraste */
+    padding: 20px; /* Ajusta el espaciado según sea necesario */
+}
+
+/* Estilos predeterminados para la imagen */
+img {
+    width: 100%; /* La imagen ocupará el 100% del ancho del contenedor */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+  }
+  
+  /* Media query para pantallas más grandes, ajusta el tamaño de la imagen según sea necesario */
+  @media only screen and (min-width: 600px) {
+    img {
+      width: 50%; /* Por ejemplo, la imagen ocupará el 50% del ancho del contenedor en pantallas más grandes */
+    }
+  }
+  
+  /* Otras media queries según sea necesario */
+  @media only screen and (min-width: 768px) {
+    img {
+      width: 30%; /* Por ejemplo, la imagen ocupará el 30% del ancho del contenedor en pantallas más grandes */
+    }
+  }
+
+  
+  
+

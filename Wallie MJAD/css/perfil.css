@@ -1,0 +1,79 @@
+*{  /*cuando se usa asterisco (*) es para causar un efecto univesal en toda la pagina*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*hace que el padding y border pasen a ser parte del calculo de la caja y no sume sus proporciones al calculo final*/
+    text-decoration: none;
+    outline: none; /*Es utilizada para remover el contorno que se ubica fuera de los límites del borde de un elemento*/
+    scroll-behavior: smooth; /*permite un desplazamiento fluido dentro de una misma pagina*/
+}
+
+html{
+    font-size: 62.5%; 
+    overflow-x: hidden; /*oculta el contenido que se sale de la pantalla*/
+}
+
+body {
+    background: linear-gradient(120deg, #576DFF 0%, #BFDFF0 100%);
+}
+
+.padre {
+    margin: 10% 12.5%;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.usuario{
+    color: #fff;
+    background: #3423a6ab;
+    border-radius: 5px;
+    box-shadow: .3rem .3rem .5rem #3423A6;
+    width: 20%;
+    text-align: center;
+}
+.img{
+    width: 40%;
+    border-radius: 3rem;
+    box-shadow: .3rem .3rem .5rem #3423A6;
+}
+.datos{
+    color: #fff;
+    background: #3423a6ab;
+    border-radius: 5px;
+    box-shadow: .3rem .3rem .5rem #3423A6;
+    padding: 0 5%;
+}
+.datos h4{
+    margin: 10% 0;
+}
+.formulario{
+    display: flex;
+    justify-content: space-around;
+}
+input{
+    color: #fff;
+}
+input[type="submit"]{
+    color: #3423a6be;
+    border-radius: .5rem;
+    font-weight: 700;
+    padding: .5rem;
+    margin: 5% 35%;
+}
+
+.iconos{
+    margin-top: 75%;
+    margin-right: 40%;
+}
+
+#Ubicacion{
+    background-color:#23417460;
+    border-radius: 0px 50px 50px 0px;
+    width: 130px;
+    height: 40px;
+    color: white;
+    margin-left: -10px;
+    margin-top: 40px;
+    margin-bottom: 5%;
+    font-size: 100%;
+}

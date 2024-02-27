@@ -1,0 +1,87 @@
+*{  /*cuando se usa asterisco (*) es para causar un efecto univesal en toda la pagina*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*hace que el padding y border pasen a ser parte del calculo de la caja y no sume sus proporciones al calculo final*/
+    text-decoration: none;
+    outline: none; /*Es utilizada para remover el contorno que se ubica fuera de los límites del borde de un elemento*/
+    scroll-behavior: smooth; /*permite un desplazamiento fluido dentro de una misma pagina*/
+}
+
+html{
+    font-size: 62.5%; 
+    overflow-x: hidden; /*oculta el contenido que se sale de la pantalla*/
+}
+
+body {
+
+    background: linear-gradient(120deg, #576DFF 0%, #BFDFF0 100%);}
+
+section{
+    min-height: 100vh; /* especificar 10vh (viewport heigth) es equivalente a ocupar 10% de la altura visible de la pantalla*/
+}
+hr{
+    width: 90%;
+    margin: auto;
+}
+
+.contenedor_superior{
+    background: #3423a6ce;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: .6rem;
+    box-shadow: .4rem .4rem .6rem #272727;
+}
+.opciones{
+    padding: .5rem;
+}
+.opciones form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.opciones form label{
+    color: #fff;
+}
+.opciones form input[type="text"]{
+    background: #e9e9e9;
+    border-radius: .5rem;
+}
+.opciones form input::placeholder{
+    color: #2e2e2e;
+}
+.opciones form input[type="submit"]{
+    padding: .5rem;
+    background: #e9e9e9;
+    color: #142074;
+    border-radius: .5rem;
+    border: none;
+    box-shadow: 0.4rem .4rem .5rem #0b1564;
+    cursor: pointer;
+}
+.titulos{
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+.listado{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    background: #3423a6ce;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: .6rem;
+    margin-top: 1rem;
+    padding: .6rem;
+    box-shadow: .4rem .4rem .6rem #272727;
+}
+#modal1, #modal2, #modal3{
+    background-color: #576DFF;
+    border-radius: 1rem;
+}
+.modal-footer{
+    background-color: #576DFF;
+}

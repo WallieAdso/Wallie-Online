@@ -1,0 +1,35 @@
+/*------------Boton------------*/
+.contenedorEliminarElemento{
+    margin-top: 20%;
+}
+
+/*------------Boton------------*/
+.btnEliminarElementos{
+    background-color: #e8e8e8;
+    padding: 10px;
+    width: 100% !important;
+    height: 35px !important;
+    border: 2px solid #ffffff !important;
+    border-radius: 5px !important;
+    font-weight: bolder;
+    color: #2e1760;
+    border: 2px solid #e8e8e8 !important;
+}
+#si:hover{
+    color: #fff;
+    background-color: #86ff52;
+    border: 2px solid #86ff52 !important;
+}
+
+#no:hover{
+    color: #fff;
+    background-color: #ff5252;
+    border: 2px solid #ff5252 !important;
+}
+
+/*------------texto confirmacion------------*/
+.confirmacion{
+    color: black;
+}
+
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/EstiloLogin.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+</head>
+<body>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+    <div class="gridLogin">
+        <div class="cuadrados">
+            <div class="c1"></div>
+            <div class="c2"></div>
+        </div>
+        <div class="tarjForm">
+            <form action="">
+                <h1 class="titulo">Wallie</h1>
+                <div class="inputContainer">
+                    <input type="text" placeholder="Usuario">
+                </div>
+                <div class="inputContainer">
+                    <input type="password" placeholder="Contraseña">
+                </div>
+                <button>Ingresar</button>
+            </form>
+        </div>
+        <div class="imgLogin">
+            <img src="img/L1-t.png" alt="">
+        </div>
+    </div>
+        <footer class="tarjContacto">
+            <a class='dropdown-trigger a1' href='#' data-target='dropdown1'><img src="img/tuerca.png" alt=""></a>
+            <!-- Dropdown Structure -->
+            <ul id='dropdown1' class='dropdown-content blue-grey darken-4' >
+                <li><a href="../php/Recuperar.php" class="white-text"><i class="material-icons white-text">lock_open</i>Cambiar Contraseña</a></li>
+                <li><a href="#!" class="white-text"><i class="material-icons white-text">error_outline</i>informar error</a></li>
+                <li><a href="#!" class="white-text"><i class="material-icons white-text">contact_support</i>Contactanos</a></li>
+            </ul>
+        </footer>
+    </div>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.dropdown-trigger');
+        var instances = M.Dropdown.init(elems, {
+            coverTrigger: false,
+            hover: true,
+            constrainWidth: false,
+            alignment: 'right'
+            });
+    });
+</script>
+</body>
+</html>
